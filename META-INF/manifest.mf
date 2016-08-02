@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 
 Name: install.rdf
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: ltWf+OfMhsJFQ+j2ruz7MA==
-SHA1-Digest: AyFPYDgAxldVlQ/TuIB9WooBJQ8=
+MD5-Digest: xl/tn5yl9gDg5/gs2tS66A==
+SHA1-Digest: n4yZO9JUrQgMqKodi0Udq3Alhn4=
 
 Name: bootstrap.js
 Digest-Algorithms: MD5 SHA1
@@ -142,8 +142,8 @@ SHA1-Digest: psveiBeWB1iMZbz6UINP2/DgTZg=
 
 Name: lib/panelManager.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 6TJPIRR/N2bkTT3Ral0GXg==
-SHA1-Digest: +VscFz3RLTo1zjdKYX7CPGcIj10=
+MD5-Digest: j0V1aOciF2waqkynu/bRQA==
+SHA1-Digest: Qc2LqBRFqIQJyCpfmmhQ8CXYcXQ=
 
 Name: lib/preferencesManager.js
 Digest-Algorithms: MD5 SHA1
