@@ -1,0 +1,61 @@
+{
+	"title": "Duplicate Tabs Closer",
+	"name": "duplicate-tabs-closer",
+	"id": "jid0-RvYT2rGWfM8q5yWxIxAHYAeo5Qg@jetpack",
+	"version": "2.0.1",
+	"description": "Detects and closes duplicate tabs.",
+	"main": "index.js",
+	"author": "Peuj",
+	"engines": {
+		"firefox": ">=38.0a1"
+	},
+	"license": "MIT",
+	"permissions": {"private-browsing": true},
+	"preferences": [
+		{
+			"name": "onDuplicateTabDetected",
+			"title": "On duplicate tab detected",
+			"type": "radio",
+			"options": [{"label": "doNothing", "value": "N"}, {"label": "showPanel", "value": "S"}, {"label": "autoCloseTab", "value": "A"}],
+			"value": "S"
+		},
+		{
+			"name": "keepTabBasedOnAge",
+			"title": "Automatic close priority - Based on age",
+			"type": "radio",
+			"options": [{"label": "keepNewerTab", "value": "N"}, {"label": "keepOlderTab", "value": "O"}],
+			"value": "O"
+		},
+		{
+			"name": "keepTabWithHistory",
+			"title": "Automatic close priority - Keep tab with Back/Forward history",
+			"type": "bool",
+			"value": true
+		},
+		{
+			"name": "onRemainingTab",
+			"title": "After automatic close - On remaining tab",
+			"type": "radio",
+			"options": [{"label": "doNothing", "value": "N"}, {"label": "activateTab", "value": "A"}, {"label": "applyNewTabBehaviourOnTab", "value": "B"}],
+			"value": "A"
+		},
+		{
+			"name": "ignoreHashPart",
+			"title": "Ignore hash part in url",
+			"type": "bool",
+			"value": false
+		},
+		{
+			"name": "ignoreSearchPart",
+			"title": "Ignore search part in url",
+			"type": "bool",
+			"value": false
+		},
+		{
+			"name": "ignoreTabsFromOtherGroups",
+			"title": "Ignore tabs from other groups",
+			"type": "bool",
+			"value": true
+		}
+	]
+}
