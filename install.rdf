@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
-          <em:id>dubli@mano.org</em:id>
+          <em:id>jid0-RvYT2rGWfM8q5yWxIxAHYAeo5Qg@jetpack</em:id>
           <em:type>2</em:type>
           <em:bootstrap>true</em:bootstrap>
           <em:unpack>false</em:unpack>
-          <em:version>2.0.2</em:version>
+          <em:version>2.1.5</em:version>
           <em:name>Duplicate Tabs Closer</em:name>
           <em:description>Detects and closes duplicate tabs.</em:description>
           <em:creator>Peuj</em:creator>
@@ -16,7 +16,7 @@
             <Description>
               <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
               <em:minVersion>38.0a1</em:minVersion>
-              <em:maxVersion>46.0</em:maxVersion>
+              <em:maxVersion>*</em:maxVersion>
 </Description>
 </em:targetApplication>
 
