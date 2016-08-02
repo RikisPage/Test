@@ -5,7 +5,7 @@
           <em:type>2</em:type>
           <em:bootstrap>true</em:bootstrap>
           <em:unpack>false</em:unpack>
-          <em:version>2.1.5</em:version>
+          <em:version>2.0.1</em:version>
           <em:name>Duplicate Tabs Closer</em:name>
           <em:description>Detects and closes duplicate tabs.</em:description>
           <em:creator>Peuj</em:creator>
@@ -16,7 +16,7 @@
             <Description>
               <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
               <em:minVersion>38.0a1</em:minVersion>
-              <em:maxVersion>*</em:maxVersion>
+              <em:maxVersion>43.0</em:maxVersion>
 </Description>
 </em:targetApplication>
 

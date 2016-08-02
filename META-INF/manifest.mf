@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 
 Name: install.rdf
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: LYN0dvmsqrWZCRL2pkp2mQ==
-SHA1-Digest: 9kWl3F76ij1Nd+ce4dycqQf7Vk0=
+MD5-Digest: PjHElOcGANl+FKDusFNw+w==
+SHA1-Digest: tRno7GCthGAa223p5bhCpF84cDM=
 
 Name: bootstrap.js
 Digest-Algorithms: MD5 SHA1
@@ -17,171 +17,171 @@ SHA1-Digest: F3V4HGdrqJ/Lfed9xd33gdrlf94=
 
 Name: package.json
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: qo5Pw8Abx3Bfmb4HYuRhvQ==
-SHA1-Digest: mdkJPfms8OgyDrxrLsW0BDMJgek=
+MD5-Digest: sn/EOgyWajfwN7gaseZgeA==
+SHA1-Digest: cLh7lMniyWMSmLx4ilvIDUB8DWY=
 
 Name: README.md
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: 5ad1ax2jpNDIL93U/UbJ6g==
 SHA1-Digest: uf2UDZY5bImqEwNP+KYmfeQIp9M=
 
-Name: data/bootstrap/dist/css/bootstrap-theme.min.css
+Name: data/bootstrap/css/bootstrap-theme.min.css
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: RtllkzA+TIZm9Je7dgLJmQ==
-SHA1-Digest: vLluMaK4/tVXWZX6DFgpPmSXIRY=
+MD5-Digest: vzSZ2hwxETcg6eOVaRcwug==
+SHA1-Digest: TJNtoCay+y5rY9PU3bw9m+tljRc=
 
-Name: data/bootstrap/dist/css/bootstrap.min.css
+Name: data/bootstrap/css/bootstrap.min.css
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: L2JAicZfEhheeZJbxaf8Qg==
-SHA1-Digest: jrF2xwuc+mhxt21tyY+1Jufps94=
+MD5-Digest: XVNXyzcE4fQ6H1v+0q6/Qg==
+SHA1-Digest: CN+alnUoUvLL0xDDD6zZNONIwsU=
 
-Name: data/bootstrap/dist/fonts/glyphicons-halflings-regular.eot
+Name: data/bootstrap/fonts/glyphicons-halflings-regular.eot
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: 9Hafm9t0Zr5lCII5wSBG0Q==
 SHA1-Digest: hrb2K3hT5n0+Y19lEqWl78WOo8M=
 
-Name: data/bootstrap/dist/fonts/glyphicons-halflings-regular.svg
+Name: data/bootstrap/fonts/glyphicons-halflings-regular.svg
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: iYiWiBR711ddYycWDWTnYA==
 SHA1-Digest: 3lGoSUGAptsHSvLe4jg/CjY8Wwg=
 
-Name: data/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf
+Name: data/bootstrap/fonts/glyphicons-halflings-regular.ttf
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: 4Yu/YR8qLkOvwHGqL04VEg==
 SHA1-Digest: RLwYUPVwlyJnsWmuGPHLBrYR/6I=
 
-Name: data/bootstrap/dist/fonts/glyphicons-halflings-regular.woff
+Name: data/bootstrap/fonts/glyphicons-halflings-regular.woff
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: +idyMn9V2BmDAf24vPyBWA==
 SHA1-Digest: J45JqG5jTabyoC87R92dKo8mIQ8=
 
-Name: data/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+Name: data/bootstrap/fonts/glyphicons-halflings-regular.woff2
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: RIw0pW1pnCkRetxkxDr/6w==
 SHA1-Digest: yjW2l9mcrk0bYPLWD803dxmH6wc=
 
-Name: data/bootstrap/dist/js/bootstrap.min.js
+Name: data/bootstrap/js/bootstrap.min.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: xbWy+hm9Zv8jIR2fhE4BMQ==
-SHA1-Digest: eRqgVKAmvdwN6SutbPehxuc3E9U=
+MD5-Digest: S+zckQRiPokfu504u6Ab5A==
+SHA1-Digest: bCZODgAmq17OSTUMaogSOY5pbLs=
 
-Name: data/color/color.js
+Name: data/images/arrow-dn.gif
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: d1HD4pBC3b8mrFZX+pQyHw==
-SHA1-Digest: iNJCqsZhQW7QZbi3goeQ7DZX0Lw=
+MD5-Digest: AJauQjK1nvyd9m+5bjkn7A==
+SHA1-Digest: nB78rletEZYkpdo2pfsO2iO4ta0=
 
-Name: data/images/auto_close_16.png
+Name: data/images/arrow-up.gif
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: oklFvUE0gibXjUvsPubhwA==
-SHA1-Digest: hObExnOhmqXwb0zHJHUch7hY8mY=
-
-Name: data/images/auto_close_32.png
-Digest-Algorithms: MD5 SHA1
-MD5-Digest: RPjFIMqGK40pLFC7KzfvnA==
-SHA1-Digest: 5X/VeRfc8vljaFHi4ds+BE42QOk=
+MD5-Digest: pt2lp0kx2OM7SRlYNDK0Pw==
+SHA1-Digest: VYi+mfUsDoP/UDtFZgmJLleFL8s=
 
 Name: data/images/default-favicon.png
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: Q8i89WJJCMzFyXOaXF9PMg==
 SHA1-Digest: fELyQx0J3PHM9jBQ71RBW4yzHtQ=
 
-Name: data/images/manual_close_16.png
+Name: data/images/duplicatetabcloser.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RPjFIMqGK40pLFC7KzfvnA==
+SHA1-Digest: 5X/VeRfc8vljaFHi4ds+BE42QOk=
+
+Name: data/images/tab_disable.png
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: 9W1HvCRdIoUD0zueKIlKLQ==
 SHA1-Digest: FWKrdW8iCVBJfxe1mQ0vtwzjHKI=
 
-Name: data/images/manual_close_32.png
+Name: data/images/tab_enable.png
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: MINad4MQmLaO68WQ0mGi9Q==
-SHA1-Digest: frzb00BMaC+VuFsVuOpMXzDgyEI=
+MD5-Digest: oklFvUE0gibXjUvsPubhwA==
+SHA1-Digest: hObExnOhmqXwb0zHJHUch7hY8mY=
 
-Name: data/jquery/dist/jquery.min.js
+Name: data/jquery/jquery-2.1.4.min.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: HTVnjF7btjmreqXM4IVvVw==
-SHA1-Digest: Ow81KFpwiLH9MhdzaW+dO0XTGUI=
+MD5-Digest: +cev0Fcp8Q9Vtonza7IBcg==
+SHA1-Digest: Q9xVRgjfiFpZ3e7OFZjGrOQ010c=
+
+Name: data/locale/en-US/en-US.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jQkkGvQE/R+SGPBmjNzBnA==
+SHA1-Digest: 6ikVTX+DdoTChi+OxX9hoyB2x2g=
+
+Name: data/locale/fr/fr.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: voteoFJaP+VQPF0gOmtcQQ==
+SHA1-Digest: k2ASN2zjkP1DThgxg9KB5Gi+ZHk=
 
 Name: data/panel/panel.css
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: PeEvizHT1BihYcWzxfPygA==
-SHA1-Digest: HYXaal0dFnNY2XaZjaW3dLt6WHc=
+MD5-Digest: sNpiUTzeUfRvFxdab2pLeg==
+SHA1-Digest: +vlxQCcP7scLm+HhNSDiCM26PEI=
 
 Name: data/panel/panel.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: qFppKLfVB8wY9pP9fXeNUg==
-SHA1-Digest: MhXhlqnutwyU32HJPF/ofJ2vCMg=
+MD5-Digest: lDFuBjfYT3rmjd9CuV+NiQ==
+SHA1-Digest: uT9elyDReNz3CXjKoVscym0qnu4=
 
 Name: data/panel/panel.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: jVTIp7/38Dmtsn70pUy3TA==
-SHA1-Digest: O3GZjXOmFxyotb7zUhF4VPO1M1E=
-
-Name: lib/color.js
-Digest-Algorithms: MD5 SHA1
-MD5-Digest: d1HD4pBC3b8mrFZX+pQyHw==
-SHA1-Digest: iNJCqsZhQW7QZbi3goeQ7DZX0Lw=
+MD5-Digest: RJ29kojD9SvjY47f1M1gZw==
+SHA1-Digest: 54YC1iPzl3jkIOVOa4Q2wOZVwBA=
 
 Name: lib/duplicateTabManager.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: nOoE+cVUClnt7KuwdZSzrA==
-SHA1-Digest: DXAAErpztYLUsekQY9E1LQlAcpg=
+MD5-Digest: E+JdhRlgTgFvlAK8f1rtxg==
+SHA1-Digest: Hi00JEaKLzGGwc+vTNqoH9IwG4g=
 
 Name: lib/eventListener.js
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: CYVco8lEa9D6Zd2CSDsE6g==
 SHA1-Digest: 75FkzJ6rQqsxIAy2ldWCz06Btck=
 
+Name: lib/eventTimer.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: amXHJLY/hPzDdOZ4P0lf9g==
+SHA1-Digest: psveiBeWB1iMZbz6UINP2/DgTZg=
+
 Name: lib/panelManager.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 3Xxbx8BizPU1V0llECdT2w==
-SHA1-Digest: lkqJAf2iS1vM85wnkd3eHKcQU88=
+MD5-Digest: 6TJPIRR/N2bkTT3Ral0GXg==
+SHA1-Digest: +VscFz3RLTo1zjdKYX7CPGcIj10=
 
 Name: lib/preferencesManager.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: Wz2mBhm+To2S0CsVnhFAWA==
-SHA1-Digest: vbSjFNJP8PNEC6vlgJCfjJmQ2zM=
+MD5-Digest: ecveGvsklwnuJ5y5y6i1fQ==
+SHA1-Digest: WB6r2dGd3mfX6vOhclYwcGg7ASI=
 
 Name: lib/tabsManager.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: YgEeNack4q9VqjsO9W6l0w==
-SHA1-Digest: uOjUEsQLgqiS7VAPOHeQaQyps2Y=
+MD5-Digest: JnRmU6bGGUA46AIE/ugSkg==
+SHA1-Digest: DH0XrMBP4UQo+C7x8U0aoRm5ONo=
 
 Name: lib/tabsObserver.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: EfI5WTWxjJuqtmVgZ1FdSA==
-SHA1-Digest: F2qBh9119Ju3fQSwj+aq6Wffw38=
+MD5-Digest: d59zSgBEJL6viC4A2ECGiQ==
+SHA1-Digest: LCUnf5+F+WBTVZMf/7VtNXedric=
 
 Name: lib/urlUtils.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: hnXd69/E5il3IVk9816APw==
-SHA1-Digest: d9JRwzo1d5vbsLnDk5gY8h5q/I4=
+MD5-Digest: Ki4IC/efY7WDN90MFQGVrw==
+SHA1-Digest: j43u+qlsHQjB+EvSC9JjTXKfcxU=
 
 Name: lib/utils.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: FsT/A34zz9S+uADkMPr2zQ==
-SHA1-Digest: IgYGNPk/H0xShz5y4EJ76zrdfwc=
+MD5-Digest: kSiDsE1J/j0ozOx5jRHFyA==
+SHA1-Digest: +RS17+bZZIUDRGzQZxSrxItUqR0=
 
 Name: lib/windowsManager.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: YyAKdQh8MMGdzT67lTVwxg==
-SHA1-Digest: WDZHBsmT0I4Djlhpy//W7drjl8c=
+MD5-Digest: omgnXZV51Ae+63Rs6cwZZA==
+SHA1-Digest: MGM4STXRcyGcHlnXnnsSGDeJgLc=
 
 Name: locale/en-US.properties
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: FNNLvVO8SxCcZy77AKglsQ==
-SHA1-Digest: h9SHPR3rio3gZL4D3zvS2BmBaFc=
+MD5-Digest: jQkkGvQE/R+SGPBmjNzBnA==
+SHA1-Digest: 6ikVTX+DdoTChi+OxX9hoyB2x2g=
 
 Name: locale/fr.properties
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: MNjNwknhjb/0T0ODKxOLGg==
-SHA1-Digest: giBRcP6jFfnOXWZeMRwOotLlLPE=
-
-Name: locale/uk.properties
-Digest-Algorithms: MD5 SHA1
-MD5-Digest: fRpl5ozQFsejBkQgTJiPmg==
-SHA1-Digest: tpYKROIj9pAH96oqhVSGrNEpSok=
-
-Name: locale/zh.properties
-Digest-Algorithms: MD5 SHA1
-MD5-Digest: j4C343KUoVe3tNiJX+x70Q==
-SHA1-Digest: Qt3gMcy5JAi25aqz9ak8jxT8zus=
+MD5-Digest: voteoFJaP+VQPF0gOmtcQQ==
+SHA1-Digest: k2ASN2zjkP1DThgxg9KB5Gi+ZHk=
 

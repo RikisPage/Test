@@ -2,7 +2,7 @@
 
 self.port.on("set-preferences", setPreferences);
 
-self.port.on("get-panel-size", resizePanel);
+self.port.on("get-panel-size", setPanelSize);
 
 self.port.on("set-button-state", setButtonState);
 
@@ -23,13 +23,8 @@ $("#panel-options select").on("change", function() {
 	if (this.id === "onDuplicateTabDetected") changeAutoCloseOptionState(this.value);
 });
 
-$(".table-tabs").on("click", ".link-cell", function(e) {
-	self.port.emit("activate-tab", $(this).parent().attr("tabId"));
-});
-
-$(".table-tabs").on("click", ".button-cell", function(e) {
-	e.stopPropagation();
-	self.port.emit("close-tab", $(this).parent().attr("tabId"));
+$(".list-group").on("click", ".list-group-item", function(e) {
+	self.port.emit("activate-tab", this.id);
 });
 
 $("#closeDuplicateTabs").on("click", function(e) {
@@ -39,15 +34,15 @@ $("#closeDuplicateTabs").on("click", function(e) {
 	}
 });
 
-$(".clickable-span").on("click", function (e) {
-	$(this).parents(".panel").find(".panel-body").slideToggle(0, "linear", resizePanel);
+$(".panel-heading span.clickable").on("click", function (e) {
+	$(this).parents(".panel").find(".panel-body").slideToggle(0, "linear", setPanelSize);
 	$(this).find("i").toggleClass("glyphicon-chevron-down glyphicon-chevron-up");
 });
 
 function changeAutoCloseOptionState(state) {
 	$("#onRemainingTabGroup").toggleClass("hidden", state !== "A");
 	$("#priorityTabGroup").toggleClass("hidden", state !== "A");
-	resizePanel();
+	setPanelSize();
 }
 
 function setPreferences(preferences) {
@@ -69,17 +64,17 @@ function setPanelNotifyTabMode() {
 
 function setPanelDefaultMode() {
 	showOptionPanel();
-	$("#duplicateTabs").has("tr").length ? showDuplicateTabsPanel() : hideDuplicateTabsPanel();
+	$("#duplicateTabs").has("a").length ? showDuplicateTabsPanel() : hideDuplicateTabsPanel();
 }
 
 function setPanelUpdateMode() {
-	$("#duplicateTabs").has("tr").length ? showDuplicateTabsPanel() : hideDuplicateTabsPanel();
+	$("#duplicateTabs").has("a").length ? showDuplicateTabsPanel() : hideDuplicateTabsPanel();
 }
 
 function showOptionPanel() {
 	const optionGlyphicon = $("#panel-options").parents(".panel").find("i");
 	if (optionGlyphicon.hasClass("glyphicon-chevron-down")) {
-		$("#panel-options").slideDown(0, "linear", resizePanel);
+		$("#panel-options").slideDown(0, "linear", setPanelSize);
 		optionGlyphicon.toggleClass("glyphicon-chevron-down glyphicon-chevron-up");
 	}
 }
@@ -87,7 +82,7 @@ function showOptionPanel() {
 function hideOptionPanel() {
 	const optionGlyphicon = $("#panel-options").parents(".panel").find("i");
 	if (optionGlyphicon.hasClass("glyphicon-chevron-up")) {
-		$("#panel-options").slideUp(0, "linear", resizePanel);
+		$("#panel-options").slideUp(0, "linear", setPanelSize);
 		optionGlyphicon.toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
 	}
 }
@@ -95,7 +90,7 @@ function hideOptionPanel() {
 function showDuplicateTabsPanel() {
 	const duplicateTabsGlyphicon = $("#panel-duplicateTabs").parents(".panel").find("i");
 	if (duplicateTabsGlyphicon.hasClass("glyphicon-chevron-down")) {
-		$("#panel-duplicateTabs").slideDown(0, "linear", resizePanel);
+		$("#panel-duplicateTabs").slideDown(0, "linear", setPanelSize);
 		duplicateTabsGlyphicon.toggleClass("glyphicon-chevron-down glyphicon-chevron-up");
 	}
 }
@@ -103,7 +98,7 @@ function showDuplicateTabsPanel() {
 function hideDuplicateTabsPanel() {
 	const duplicateTabsGlyphicon = $("#panel-duplicateTabs").parents(".panel").find("i");
 	if (duplicateTabsGlyphicon.hasClass("glyphicon-chevron-up")) {
-		$("#panel-duplicateTabs").slideUp(0, "linear", resizePanel);
+		$("#panel-duplicateTabs").slideUp(0, "linear", setPanelSize);
 		duplicateTabsGlyphicon.toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
 	}
 }
@@ -112,7 +107,7 @@ function setButtonState(action) {
 	$("#closeDuplicateTabs").toggleClass("disabled", action === "disable");
 }
 
-function resizePanel() {
+function setPanelSize() {
 	self.port.emit("resize-panel", {width: document.body.scrollWidth, height: document.body.scrollHeight});
 }
 
@@ -122,5 +117,5 @@ function clearDuplicateTabs() {
 
 function addDuplicateTab(tab) {
 	const icon = tab.icon || "../images/default-favicon.png";
-	$("#duplicateTabs").append("<tbody><tr tabId='" + tab.id + "' groupId='" + tab.groupId + "'><td class='link-cell'> <img src=" + icon + ">" + tab.title +"</td><td class='button-cell'><button type='button' class='close'>&times;</button></td></tr></tbody>");
+	$("#duplicateTabs").append("<a href='#' class='list-group-item' id='" + tab.id + "' groupId='" + tab.groupId + "'> <img src=" + icon + ">" + tab.title + "</a>");
 }

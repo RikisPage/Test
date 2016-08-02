@@ -2,7 +2,6 @@
 body {
 	padding: 5px;
 	font-size: 12px;
-	font-family: Helvetica, Arial, sans-serif;
 	overflow: hidden;
 	min-width: 340px;
 }
@@ -13,7 +12,7 @@ body {
 }
 
 /* change cursor type for the glyphicon */
-.clickable-span {
+.clickable {
 	cursor: pointer;
 }
 
@@ -31,8 +30,8 @@ body {
 	padding-right: 8px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 .form-group {
@@ -41,10 +40,10 @@ body {
 }
 
 .input-xs {
-	height: 26px;
-	padding: 5px 5px;
-	font-size: 12px;
-	border-radius: 3px;
+    height: 26px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 3px;
 }
 
 /*fix for the checkbox */
@@ -74,35 +73,41 @@ body {
 	margin-bottom: 5px;
 }
 
-.table-container {
-	overflow: auto;
-	max-height: 312px;
-}
-
-.table-tabs {
+.list-group {
 	margin-top: 5px;
-	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	box-shadow: none;
+	overflow: auto;
+	max-height:312px;
 }
 
-.table-tabs td{
-	padding: 2px;
-}
-
-.link-cell {
-	max-width: 0;
+.list-group-item {
 	overflow: hidden;
-	text-overflow: ellipsis;
+	display: block;
+	padding: 4px;
+	margin-bottom: 0.25em;
+	height: 26px;
+	line-height: 16px;
+	border: none;
 	white-space: nowrap;
-	cursor: pointer;
+	text-overflow: ellipsis;
 }
 
-.link-cell img {
+.list-group-item img {
 	float: left;
 	height: 16px;
-	width: 16px;
 	margin-right: 8px;
+	width: 16px;
 }
 
-.button-cell {
-	width: 5px;
+.list-group-item:first-child {
+	border-top-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
 }
