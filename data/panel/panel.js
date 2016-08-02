@@ -63,7 +63,8 @@ function setPanelNotifyTabMode() {
 }
 
 function setPanelDefaultMode() {
-	showOptionPanel();
+	//showOptionPanel();
+  hideOptionPanel();
 	$("#duplicateTabs").has("a").length ? showDuplicateTabsPanel() : hideDuplicateTabsPanel();
 }
 

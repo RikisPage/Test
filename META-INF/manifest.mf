@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 
 Name: install.rdf
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: PjHElOcGANl+FKDusFNw+w==
-SHA1-Digest: tRno7GCthGAa223p5bhCpF84cDM=
+MD5-Digest: ltWf+OfMhsJFQ+j2ruz7MA==
+SHA1-Digest: AyFPYDgAxldVlQ/TuIB9WooBJQ8=
 
 Name: bootstrap.js
 Digest-Algorithms: MD5 SHA1
@@ -122,13 +122,13 @@ SHA1-Digest: uT9elyDReNz3CXjKoVscym0qnu4=
 
 Name: data/panel/panel.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: RJ29kojD9SvjY47f1M1gZw==
-SHA1-Digest: 54YC1iPzl3jkIOVOa4Q2wOZVwBA=
+MD5-Digest: O/5M9QkEa7h+Gk+HaihQ5A==
+SHA1-Digest: DmI6zJlx9luNUc6zdnm5W9g6zCo=
 
 Name: lib/duplicateTabManager.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: E+JdhRlgTgFvlAK8f1rtxg==
-SHA1-Digest: Hi00JEaKLzGGwc+vTNqoH9IwG4g=
+MD5-Digest: SQ/K1mPu3SpgucfbThuJNA==
+SHA1-Digest: q//Zra3F8EQrIjgEHS1sVzfwX2I=
 
 Name: lib/eventListener.js
 Digest-Algorithms: MD5 SHA1
