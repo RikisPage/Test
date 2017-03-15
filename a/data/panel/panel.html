@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Duplicate Tabs Closer Panel</title>
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-theme.min.css">
+  <script type="text/javascript" src="../jquery/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="panel.css">
+</head>
+<body>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" data-l10n-id="options_id"></h3>
+        <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+      </div>
+      <div class="panel-body" id="panel-options">
+        <div class="form-group" id="onDuplicateTabDetectedGroup">
+          <label data-l10n-id="onDuplicateTabDetected_id"></label>
+          <div class="combobox-container">
+            <select class="form-control input-xs" id="onDuplicateTabDetected">
+              <option value="N" data-l10n-id="doNothing_id"></option>
+              <option value="S" data-l10n-id="showPanel_id"></option>
+              <option value="A" data-l10n-id="autoCloseTab_id"></option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group" id="priorityTabGroup">
+          <label data-l10n-id="tabPriority_id"></label>
+          <div class="checkbox-list">
+            <div class="checkbox">
+              <label class="checkbox-inline" for="keepTabWithHistory"><input type="checkbox" id="keepTabWithHistory"> <span data-l10n-id="keepTabWithHistory_id"></span></label>
+            </div>
+          </div>
+          <div class="combobox-container">
+            <select class="form-control input-xs" id="keepTabBasedOnAge">
+              <option value="N" data-l10n-id="keepNewerTab_id"></option>
+              <option value="O" data-l10n-id="keepOlderTab_id"></option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group" id="onRemainingTabGroup">
+          <label id="actionOnRemainingTabLabel" data-l10n-id="onRemainingTab_id"></label>
+          <div class="combobox-container">
+            <select class="form-control input-xs" id="onRemainingTab">
+              <option value="N" data-l10n-id="doNothing_id"></option>
+              <option value="A" data-l10n-id="activateTab_id"></option>
+              <option value="B" data-l10n-id="applyOpeningTabBehaviour_id"></option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label data-l10n-id="filters_id"></label>
+          <div class="checkbox-container">
+            <div class="checkbox">
+              <label class="checkbox-inline" for="ignoreHashPart"><input type="checkbox" id="ignoreHashPart"> <span data-l10n-id="ignoreHashPart_id"></span></label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox-inline" for="ignoreSearchPart"><input type="checkbox" id="ignoreSearchPart"> <span data-l10n-id="ignoreSearchPart_id"></span></label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox-inline" for="ignoreTabsFromOtherGroups"><input type="checkbox" id="ignoreTabsFromOtherGroups"> <span data-l10n-id="ignoreTabsFromOtherGroups_id"></span></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" data-l10n-id="currentDuplicateTabs_id"></h3>
+        <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+      </div>
+      <div class="panel-body"  id="panel-duplicateTabs">
+        <div class="list-group" id="duplicateTabs">
+        </div>
+        <button type="button" class="btn btn-primary btn-block btn-sm disabled" id="closeDuplicateTabs" data-l10n-id="closeAllDuplicateTabs_id"></button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

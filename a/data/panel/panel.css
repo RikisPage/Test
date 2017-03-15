@@ -1,0 +1,113 @@
+/* change padding and font for the complete body */
+body {
+	padding: 5px;
+	font-size: 12px;
+	overflow: hidden;
+	min-width: 340px;
+}
+
+/* fix for the glyphicon position */
+.panel-heading span {
+	margin-top: -20px;
+}
+
+/* change cursor type for the glyphicon */
+.clickable {
+	cursor: pointer;
+}
+
+.panel-group {
+	margin-bottom: 0px;
+}
+
+/* fix for the title position*/
+.panel-heading h3 {
+	margin-left: -8px;
+}
+
+.panel-body {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.form-group {
+	padding-top: 12px;
+	margin-bottom: 0px;
+}
+
+.input-xs {
+    height: 26px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+/*fix for the checkbox */
+.checkbox-list {
+	padding-top: 0px;
+	margin-top: -10px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/*fix for the checkbox */
+.checkbox-container {
+	padding-top: 0px;
+	margin-top: -10px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.checkbox  {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 22px;
+}
+
+.btn {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.list-group {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	box-shadow: none;
+	overflow: auto;
+	max-height:312px;
+}
+
+.list-group-item {
+	overflow: hidden;
+	display: block;
+	padding: 4px;
+	margin-bottom: 0.25em;
+	height: 26px;
+	line-height: 16px;
+	border: none;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.list-group-item img {
+	float: left;
+	height: 16px;
+	margin-right: 8px;
+	width: 16px;
+}
+
+.list-group-item:first-child {
+	border-top-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
